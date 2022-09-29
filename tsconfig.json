@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"module": "CommonJS",
+		"moduleResolution": "node",
+		"lib": ["esnext", "dom", "es5"],
+		"baseUrl": "./",
+		"strict": true,
+		"allowJs": true,
+		"esModuleInterop": true,
+		"noUnusedLocals": true,
+		"allowSyntheticDefaultImports": true,
+		"declaration": true,
+		"outDir": "./dist",
+		"types": ["node", "cypress", "cypress-axe"]
+	},
+	"include": [".", "src",
+    "./cypress.d.ts"]
+}
