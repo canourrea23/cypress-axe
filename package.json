@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open:env": "cypress open --config-file=cypress_config/$npm_config_env.config.js --env grepTags=\"$npm_config_tags\""
   },
   "author": "",
   "license": "ISC",
